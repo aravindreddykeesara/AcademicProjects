@@ -1,0 +1,56 @@
+{"name":"bubble", "children": [
+{"name":"CIW","description":"Cab In White",
+"children":[
+    {"name": "Shift-0","groupName":"CIW.shift0","groupColor":"#22a2d5","note":"Cab In white - 230"},
+    {"name": "Shift-7","groupName":"CIW.shift7","groupColor":"#22a2d5","note":"Cab In white - 230"}
+
+]},
+{"name":"FCB","description":"Final cab",
+"children":[
+    {"name": "Shift-0","groupName":"FCB.shift0","groupColor":"#e0670e","note":"Final Cab - 465"}
+
+]},
+{"name":"PNT","description":"Paint",
+"children":[
+    {"name": "Shift-0","groupName":"PNT.shift0","groupColor":"#07a730","note":"Paint - 34"}
+
+]},
+{"name":"PCH","description":"Pre Paint Chassis",
+"children":[
+    {"name": "Shift-0","groupName":"PCH.shift0","groupColor":"#f70703","note":"Pre Paint Chassis - 919"},
+    {"name": "Shift-1","groupName":"PCH.shift1","groupColor":"#f70703","note":"Pre Paint Chassis - 919"}
+
+]},
+{"name":"FCH","description":"Final Chassis",
+"children":[
+    {"name": "Shift-0","groupName":"FCH.shift0","groupColor":"#7413af","note":"Final Chassis - 2385"},
+    {"name": "Shift-1","groupName":"FCH.shift1","groupColor":"#7413af","note":"Final Chassis - 2385"},
+    {"name": "Shift-5","groupName":"FCH.shift5","groupColor":"#7413af","note":"Final Chassis - 2385"}
+
+]},
+{"name":"OFF","description":"Offline",
+"children":[
+    {"name": "Shift-0","groupName":"OFF.shift0","groupColor":"#683005 ","note":"Offline - 1426"},
+    {"name": "Shift-2","groupName":"OFF.shift2","groupColor":"#683005 ","note":"Offline - 1426"},
+    {"name": "Shift-6","groupName":"OFF.shift6","groupColor":"#683005 ","note":"Offline - 1426"}
+
+]},
+{"name": "PDI", "description": "PDI",
+    "children": [
+
+        { "note" : " PDI - 0"}
+
+    ]
+
+},  
+{"name": "MTL", "description": "Materials",
+
+"children" : [
+
+        { "note" : "MTL - 0"}
+
+    ]
+}
+
+
+]}

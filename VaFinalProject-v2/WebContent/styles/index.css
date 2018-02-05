@@ -1,0 +1,131 @@
+ .axis path, .axis line
+        {
+            fill: none;
+            stroke: #777;
+            shape-rendering: crispEdges;
+        }
+        
+        .axis text
+        {
+            font-family: 'Arial';
+            font-size: 13px;
+        }
+        .tick
+        {
+            stroke-dasharray: 1, 2;
+        }
+        .bar
+        {
+            fill: FireBrick;
+        }
+        
+        
+
+.slice {
+   font-size: 12pt;
+   font-family: Verdana;
+   fill: white; //svg specific - instead of color
+   font-weight: bold; 
+      } 
+
+/*for line chart*/
+
+
+.line {
+  fill: none;
+  /*stroke: steelblue;*/
+  stroke-width: 3px;
+}
+
+.dot {
+  /*fill: white;*/
+  /*stroke: steelblue;*/
+  stroke-width: 1.5px;
+  }
+        
+
+.axis text {
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+.title {
+   font-family: Verdana;
+    font-size: 15px;  
+    
+}
+
+.xAxis {
+    font-family: verdana;
+    font-size: 11px;
+    fill: black;
+}  
+
+.yAxis {
+    font-family: verdana;
+    font-size: 11px;
+    fill: white;
+}
+
+ .tick {
+            stroke-dasharray: 1, 2;
+        }
+  .bar {
+            fill: FireBrick;
+   }
+
+
+  
+table {
+  border-collapse:collapse;
+  border: 0px;  
+  font-family: Verdana; 
+  color: #5C5558;
+  font-size: 12px;
+  text-align: right;      
+}
+
+td {
+  padding-left: 10px;   
+}
+
+
+
+ #mainBubble {
+      background: #fff;
+      border: solid 1px #ddd;
+      box-shadow: 0 0 4px rgba(0,0,0,0);
+      font: 10px sans-serif;
+      height: 100%;
+      position: relative;
+      width: 100%;
+    }
+             
+    #mainBubble svg {
+      left: 0;
+      position: absolute;
+      top: 0;
+    }
+                         
+    #mainBubble circle.topBubble {
+      fill: #aaa;
+      stroke: #666;
+      stroke-width: 1.5px;
+     }
+
+
+     #lineChartTitle1 {
+  font-family: Verdana;
+  font-size  : 14px;
+  fill       : #291411;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+#lineChartTitle2 {
+  font-family: Verdana;
+  font-size  : 72px;
+  fill       : grey;
+  text-anchor: middle;
+  font-weight: bold;
+  /*font-style: italic;*/
