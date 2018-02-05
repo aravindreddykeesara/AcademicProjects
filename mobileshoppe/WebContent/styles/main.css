@@ -1,0 +1,42 @@
+/* The styles for the elements */
+body { 
+   background-image: url('http://media.148apps.com/screenshots/400380058/us-ipad-4-doodle-wallpapers-doodle-arts-and-backgrounds-hd.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+   
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
